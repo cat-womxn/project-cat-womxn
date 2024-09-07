@@ -228,7 +228,7 @@
 
   "guestbook_title": "방명록",
   "guestbook_back_to_home": "처음으로",
-  "guestbook_placeholder_name": "Name",
+  "guestbook_placeholder_name": "이름",
   "guestbook_placeholder_message": "메시지",
   "guestbook_button_save": "등록하기"
 }

@@ -55,9 +55,9 @@ const GuestBook = () => {
   }, []);
 
   return (
-    <>
+    <main className="py-10">
       <form className="flex flex-col max-w-[420px] px-10 pb-10 gap-[10px] mx-auto">
-        <div>
+        <div className="flex justify-between">
           <HighlightText className="mt-4">{m.guestbook_title()}</HighlightText>
           <Link href="/">
             <HighlightText className="mt-4 hover:underline">
@@ -87,7 +87,7 @@ const GuestBook = () => {
       {guestBook.map((guest) => (
         <GuestMessage key={guest.name} {...guest} />
       ))}
-    </>
+    </main>
   );
 };
 
