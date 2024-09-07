@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-col w-full max-w-[420px] px-10 mx-auto;
+  @apply flex flex-col w-full max-w-[420px] px-5 mx-auto;
 }
 .questionContainer {
   @apply min-h-[578px];
