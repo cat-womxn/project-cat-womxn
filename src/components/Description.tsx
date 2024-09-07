@@ -2,7 +2,6 @@ import Card from "./Card";
 import HighlightText from "./HighlightText";
 
 type DescriptionProps = {
-  type: string;
   title: string;
   name: string;
   url: string;
@@ -13,10 +12,10 @@ type DescriptionProps = {
 };
 
 type HeadlineProps = {
-  type: string;
+  name: string;
 };
 
-const Headline = ({ type }: HeadlineProps) => (
+const Headline = ({ name }: HeadlineProps) => (
   <div className="bg-green relative h-[20px] flex justify-center items-center">
     <HighlightText
       className="text-white font-gmarket pb-4 tracking-widest"
@@ -25,13 +24,12 @@ const Headline = ({ type }: HeadlineProps) => (
           "1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black",
       }}
     >
-      {type}
+      {name}
     </HighlightText>
   </div>
 );
 
 const Description = ({
-  type,
   title,
   name,
   url,
@@ -42,7 +40,7 @@ const Description = ({
 }: DescriptionProps) => {
   return (
     <Card>
-      <Headline type={type} />
+      <Headline name={name} />
       <img src={imageUrl} alt={name} />
       <HighlightText>
         <strong className="text-green">{title}</strong>

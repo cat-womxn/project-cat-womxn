@@ -15,7 +15,6 @@ const ResultPage = ({ type }: ResultProps) => {
   return (
     <>
       <Description
-        type={result.type}
         name={result.name}
         title={result.title}
         url={result.mainUrl}
