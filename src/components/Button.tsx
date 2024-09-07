@@ -10,7 +10,16 @@ type ButtonProps = {
 const Button = ({ className, text, onClick, href }: ButtonProps) => {
   return (
     <div className={className}>
-      <MuiButton variant="contained" onClick={onClick} href={href} className="bg-green flex w-[100%] font-gmarket">
+      <MuiButton
+        variant="contained"
+        onClick={onClick}
+        href={href}
+        sx={{
+          backgroundColor: "green", 
+          width: "100%", 
+          fontFamily: "GmarketSans", 
+        }}
+      >
         {text}
       </MuiButton>
     </div>
