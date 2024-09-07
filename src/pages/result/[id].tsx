@@ -1,7 +1,7 @@
 import { GetServerSidePropsContext } from "next";
 import Description from "@/components/Description";
-import data from "@/data/organzation.json";
-import SimilarOrgans from "@/components/similarOrgans";
+import data from "@/data/organization.json";
+import SimilarOrgans from "@/components/SimilarOrgans";
 import Share from "@/components/Share";
 import Button from "@/components/Button";
 
