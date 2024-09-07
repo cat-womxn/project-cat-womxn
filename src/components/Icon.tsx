@@ -1,20 +1,23 @@
+import { Button } from "@mui/material";
 import Image from "next/image";
 
 type IconProps = {
   src: string;
   alt: string;
-  url: string;
+  onClick?: () => void;
 };
 
-const Icon = ({ src, alt }: IconProps) => {
+const Icon = ({ src, alt, onClick }: IconProps) => {
   return (
-    <Image
-      className="rounded-full"
-      src={src}
-      alt={alt}
-      width={50}
-      height={50}
-    />
+    <Button onClick={onClick}>
+      <Image
+        className="rounded-full"
+        src={src}
+        alt={alt}
+        width={50}
+        height={50}
+      />
+    </Button>
   );
 };
 
