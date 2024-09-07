@@ -20,7 +20,7 @@ const Share = () => {
         <Icon src="/images/link.webp" alt="link" onClick={shareLink} />
         <Icon src="/images/pencil.png" alt="guestbook" onClick={() => router.push("/guestbook")} />
       </div>
-      <Button className="mt-4" text={m.result_button_restart()} href="/question" />
+      <Button className="mt-4" text={m.result_button_restart()} onClick={() => router.push('/question')}/>
     </Card>
   )
 }
