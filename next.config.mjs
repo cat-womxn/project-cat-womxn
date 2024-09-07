@@ -17,6 +17,7 @@ const nextConfig = {
       'res.cloudinary.com',
       'cdn.myportfolio.com',
       'kumsn.org',
+      'cdn-icons-png.flaticon.com',
     ],
   },
 }
