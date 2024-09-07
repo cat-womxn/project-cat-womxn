@@ -1,3 +1,4 @@
+import Button from "./Button";
 import Card from "./Card";
 import HighlightText from "./HighlightText";
 
@@ -6,6 +7,7 @@ type DescriptionProps = {
   name: string;
   url: string;
   imageUrl: string;
+  donationUrl: string;
   description: string;
   characteristics: string[];
   matchingPoints: string[];
@@ -16,6 +18,7 @@ const Description = ({
   name,
   url,
   imageUrl,
+  donationUrl,
   description,
   characteristics,
   matchingPoints,
@@ -48,6 +51,7 @@ const Description = ({
           <li key={matchingPoint}>{matchingPoint}</li>
         ))}
       </ul>
+      <Button className="mt-4" text="후원 하러 가기" href={donationUrl} />
     </Card>
   );
 };

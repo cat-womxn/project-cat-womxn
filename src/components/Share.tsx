@@ -2,6 +2,7 @@ import { shareLink, shareTwitter } from "@/utils/url.helper";
 import Card from "./Card";
 import HighlightText from "./HighlightText";
 import Icon from "./Icon";
+import Button from "./Button";
 
 const Share = () => {
   // const url = typeof window !== undefined ? new URL(window.location.href) : new URL("");
@@ -16,6 +17,7 @@ const Share = () => {
         />
         <Icon src="/images/link.webp" alt="링크" onClick={shareLink} />
       </div>
+      <Button className="mt-4" text="테스트 다시하기" href="/question" />
     </Card>
   );
 };

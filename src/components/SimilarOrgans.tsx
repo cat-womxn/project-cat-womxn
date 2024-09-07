@@ -1,3 +1,4 @@
+import Button from "./Button";
 import Card from "./Card";
 import HighlightText from "./HighlightText";
 
@@ -15,6 +16,7 @@ const SimilarOrgans = ({ organs }: SimilarOrgansProps) => {
         <li>{organs[0]}</li>
         <li>{organs[1]}</li>
       </ul>
+      <Button className="mt-4" text="목록으로" href="/list" />
     </Card>
   );
 };
