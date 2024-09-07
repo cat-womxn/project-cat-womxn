@@ -14,12 +14,12 @@ export default function QuestionBody({ currentQuestion, handleNextStep }: Questi
     <>
       <h3 className={S.question}>
         <b>Q.</b> <br />
-        {m[currentQuestion.question as keyof typeof m]?.()}
+        {m[currentQuestion.question as keyof typeof m]()}
       </h3>
       <div className={S.buttonsWrapper}>
         {currentQuestion.choices.map((choice) => (
           <button key={choice.value} className={S.button} onClick={() => handleClick(choice.value)}>
-            {m[choice.answer as keyof typeof m]?.()}
+            {m[choice.answer as keyof typeof m]()}
           </button>
         ))}
       </div>
