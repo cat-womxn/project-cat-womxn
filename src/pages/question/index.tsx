@@ -20,9 +20,9 @@ const MIN_WIDTH_PERCENTAGE = 25;
 
 export default function Question() {
   const { questions } = questionData;
+  const shuffledQuestions = useMemo(() => shuffleArray(questions), [questions]);
 
   const router = useRouter();
-  const shuffledQuestions = useMemo(() => shuffleArray(questions), [questions]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [progress, setProgress] = useState(0);
@@ -40,7 +40,7 @@ export default function Question() {
       const isLastQuestion = newArr.length === questions.length;
 
       if (isLastQuestion) {
-        const type = newArr.join("");
+        const type = sortResultType(newArr);
         void router.push(`/result/${type}`);
         return newArr;
       }
@@ -74,4 +74,19 @@ export default function Question() {
 
 function shuffleArray(array: Question[]) {
   return array.sort(() => Math.random() - 0.5);
+}
+
+function sortResultType(result: string[]): string {
+  const orderMap: { [key: string]: number } = {
+    D: 0,
+    I: 0,
+    B: 1,
+    F: 1,
+    A: 2,
+    E: 2,
+    S: 3,
+    L: 3,
+  };
+
+  return result.sort((a, b) => orderMap[a] - orderMap[b]).join("");
 }
