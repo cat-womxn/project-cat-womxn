@@ -53,7 +53,7 @@ const GuestBook = () => {
 
   return (
     <>
-      <form className="flex flex-col max-w-[420px] px-10 gap-[10px]">
+      <form className="flex flex-col max-w-[420px] px-10 gap-[10px] mx-auto">
       <HighlightText className="mt-4">방명록</HighlightText>
         <input
           className="border-2 border-black rounded-md mt-4"
