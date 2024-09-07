@@ -13,7 +13,7 @@ const ResultPage = ({ type }: ResultProps) => {
   const result = data.find((item) => item.type === type)
   if (!result) return null
   return (
-    <>
+    <div className="pb-10">
       <Description
         name={m[result.name as keyof typeof m]()}
         title={m[result.title as keyof typeof m]()}
@@ -26,7 +26,7 @@ const ResultPage = ({ type }: ResultProps) => {
       />
       <SimilarOrgans organs={result.similarOrganizations} />
       <Share />
-    </>
+    </div>
   )
 }
 
