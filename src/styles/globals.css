@@ -46,6 +46,9 @@ body {
 .background-yellow {
   @apply min-h-screen bg-[var(--yellow)];
 }
+.card-container {
+  @apply flex flex-col w-full bg-[var(--white)] px-[28px] mt-14 rounded-2xl border-2 border-black;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
