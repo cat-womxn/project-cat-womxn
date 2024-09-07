@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import { useRouter } from 'next/router'
-import * as m from '@/paraglide/messages.js'
+import Image from "next/image";
+import { useRouter } from "next/router";
+import * as m from "@/paraglide/messages.js";
 
 export default function Home() {
-  const router = useRouter()
+  const router = useRouter();
 
   function goToQuestionPage() {
-    router.push('/question')
+    router.push("/question");
   }
 
   function toggleLanguage() {
@@ -25,12 +25,20 @@ export default function Home() {
         {router.locale === 'ko' ? 'English' : '한국어'}
       </button>
       <main className="flex flex-col items-center justify-center">
-        <Image src="/images/intro.webp" alt="" width={500} height={300} priority />
+        <Image
+          src="/images/intro.webp"
+          alt=""
+          width={500}
+          height={300}
+          priority
+        />
         <h1
           className="mt-8 text-4xl font-bold font-gmarket text-center tracking-tighter leading-tight whitespace-pre-line"
           dangerouslySetInnerHTML={{ __html: m.home_title() }}
         ></h1>
-        <h2 className="mt-4 mb-8 text-center text-md whitespace-pre-line">{m.home_subtitle()}</h2>
+        <h2 className="mt-4 mb-8 text-center text-md whitespace-pre-line">
+          {m.home_subtitle()}
+        </h2>
         <button
           className="mt-3 px-12 py-4 bg-[var(--green)] text-[var(--black)] rounded-3xl hover:bg-[var(--black)] hover:text-[var(--white)] transition-colors text-xl tracking-tighter border-solid border-2 border-[var(--black)]"
           onClick={goToQuestionPage}
@@ -39,5 +47,5 @@ export default function Home() {
         </button>
       </main>
     </div>
-  )
+  );
 }

@@ -222,5 +222,11 @@
   "org_kumsn_match_1": "가족 다양성과 평등에 특별한 관심을 가지고 계시네요",
   "org_kumsn_match_2": "간접 지원과 교육을 통한 사회 변화를 추구하시는 것 같아요",
   "org_kumsn_match_3": "소수자 권리 보호에 폭넓게 접근하는 것을 선호하시는군요",
-  "org_kumsn_match_4": "전국적 네트워크를 가진 단체를 지지하시는 편이에요"
+  "org_kumsn_match_4": "전국적 네트워크를 가진 단체를 지지하시는 편이에요",
+
+  "guestbook_title": "방명록",
+  "guestbook_back_to_home": "처음으로",
+  "guestbook_placeholder_name": "Name",
+  "guestbook_placeholder_message": "메시지",
+  "guestbook_button_save": "등록하기"
 }

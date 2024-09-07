@@ -222,5 +222,11 @@
   "org_kumsn_match_1": "You have a special interest in family diversity and equality",
   "org_kumsn_match_2": "You seem to prefer indirect support and social change",
   "org_kumsn_match_3": "You value comprehensive approaches to minority rights",
-  "org_kumsn_match_4": "You tend to support nationwide networked organizations"
+  "org_kumsn_match_4": "You tend to support nationwide networked organizations",
+
+  "guestbook_title": "Guestbook",
+  "guestbook_back_to_home": "Back to home",
+  "guestbook_placeholder_name": "Name",
+  "guestbook_placeholder_message": "Message",
+  "guestbook_button_save": "Save"
 }

@@ -1,61 +1,63 @@
-import { useEffect, useMemo, useState } from 'react'
-import S from '../../components/question.module.css'
-import questionData from '@/data/questions.json'
+import { useEffect, useMemo, useState } from "react";
+import S from "@/styles/question.module.css";
+import questionData from "@/data/questions.json";
 
-import dynamic from 'next/dynamic'
-import { useRouter } from 'next/router'
+import dynamic from "next/dynamic";
+import { useRouter } from "next/router";
 
-const QuestionBody = dynamic(() => import('../../components/Question.Body'), { ssr: false })
+const QuestionCard = dynamic(() => import("@/components/QuestionCard"), {
+  ssr: false,
+});
 
 export interface Question {
-  id: number
-  question: string
+  id: number;
+  question: string;
   choices: {
-    answer: string
-    value: string
-  }[]
+    answer: string;
+    value: string;
+  }[];
 }
 
-const MIN_WIDTH_PERCENTAGE = 25
+const MIN_WIDTH_PERCENTAGE = 25;
 
 export default function Question() {
-  const { questions } = questionData
-  const shuffledQuestions = useMemo(() => shuffleArray(questions), [questions])
+  const { questions } = questionData;
+  const shuffledQuestions = useMemo(() => shuffleArray(questions), [questions]);
 
-  const router = useRouter()
+  const router = useRouter();
 
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const [progress, setProgress] = useState(0)
-  const [, setResultArr] = useState<string[]>([])
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [progress, setProgress] = useState(0);
+  const [, setResultArr] = useState<string[]>([]);
 
   useEffect(() => {
     if (progress === 0) {
-      setProgress(MIN_WIDTH_PERCENTAGE)
+      setProgress(MIN_WIDTH_PERCENTAGE);
     }
-  }, [])
+  }, []);
 
   const handleNextStep = (value: string) => {
     setResultArr((prevArr) => {
-      const newArr = [...prevArr, value]
-      const isLastQuestion = newArr.length === questions.length
+      const newArr = [...prevArr, value];
+      const isLastQuestion = newArr.length === questions.length;
 
       if (isLastQuestion) {
-        const type = sortResultType(newArr)
-        void router.push(`/result/${type}`)
-        return newArr
+        const type = sortResultType(newArr);
+        void router.push(`/result/${type}`);
+        return newArr;
       }
 
-      updateProgress()
-      return newArr
-    })
-  }
+      updateProgress();
+      return newArr;
+    });
+  };
 
   const updateProgress = () => {
-    setProgress((prev) => prev + MIN_WIDTH_PERCENTAGE)
-    setCurrentIndex((prev) => prev + 1)
-  }
+    setProgress((prev) => prev + MIN_WIDTH_PERCENTAGE);
+    setCurrentIndex((prev) => prev + 1);
+  };
 
-  const currentQuestion = shuffledQuestions[currentIndex]
+  const currentQuestion = shuffledQuestions[currentIndex];
 
   return (
     <div className={S.container}>
@@ -63,14 +65,17 @@ export default function Question() {
         <div className={S.defaultProgressBar}>
           <div className={S.progressBar} style={{ width: `${progress}%` }} />
         </div>
-        <QuestionBody currentQuestion={currentQuestion} handleNextStep={handleNextStep} />
+        <QuestionCard
+          currentQuestion={currentQuestion}
+          handleNextStep={handleNextStep}
+        />
       </main>
     </div>
-  )
+  );
 }
 
 function shuffleArray(array: Question[]) {
-  return array.sort(() => Math.random() - 0.5)
+  return array.sort(() => Math.random() - 0.5);
 }
 
 function sortResultType(result: string[]): string {
@@ -83,7 +88,7 @@ function sortResultType(result: string[]): string {
     E: 2,
     S: 3,
     L: 3,
-  }
+  };
 
-  return result.sort((a, b) => orderMap[a] - orderMap[b]).join('')
+  return result.sort((a, b) => orderMap[a] - orderMap[b]).join("");
 }

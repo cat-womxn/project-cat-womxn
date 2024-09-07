@@ -4,6 +4,7 @@ import axios from "axios";
 import Card from "@/components/Card";
 import HighlightText from "@/components/HighlightText";
 import Button from "@/components/Button";
+import * as m from "@/paraglide/messages";
 
 type GuestMessageProps = {
   name: string;
@@ -55,29 +56,33 @@ const GuestBook = () => {
 
   return (
     <>
-      <form className="flex flex-col max-w-[420px] px-10 gap-[10px] mx-auto">
-        <div className="flex justify-between">
-          <HighlightText className="mt-4">방명록</HighlightText>
+      <form className="flex flex-col max-w-[420px] px-10 pb-10 gap-[10px] mx-auto">
+        <div>
+          <HighlightText className="mt-4">{m.guestbook_title()}</HighlightText>
           <Link href="/">
             <HighlightText className="mt-4 hover:underline">
-              처음으로
+              {m.guestbook_back_to_home()}
             </HighlightText>
           </Link>
         </div>
         <input
           className="border-2 border-black rounded-md mt-4"
           type="text"
-          placeholder="Name"
+          placeholder={m.guestbook_placeholder_name()}
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         <textarea
-          className="border-2 border-black rounded-md"
-          placeholder="Message"
+          className="h-[120px] border-2 border-black rounded-md resize-none"
+          placeholder={m.guestbook_placeholder_message()}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <Button className="w-full" text="Save" onClick={saveMessage} />
+        <Button
+          className="w-full"
+          text={m.guestbook_button_save()}
+          onClick={saveMessage}
+        />
       </form>
       {guestBook.map((guest) => (
         <GuestMessage key={guest.name} {...guest} />
