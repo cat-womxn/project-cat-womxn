@@ -15,7 +15,7 @@ const Button = ({ className, text, onClick, href }: ButtonProps) => {
         onClick={onClick}
         href={href}
         sx={{
-          backgroundColor: "green", 
+          backgroundColor: "var(--green)", 
           width: "100%", 
           fontFamily: "GmarketSans", 
         }}
