@@ -6,7 +6,7 @@
   font-family: "Pretendard";
   src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css")
     format("woff");
-  font-weight: 400 700;
+  font-weight: 400 500 700;
   font-style: normal;
 }
 @font-face {
@@ -32,7 +32,9 @@
 body {
   font-family: "Pretendard", "GmarketSans", Arial, Helvetica, sans-serif;
 }
-
+.background-yellow {
+  @apply min-h-screen bg-[var(--yellow)];
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
