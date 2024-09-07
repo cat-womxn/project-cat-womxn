@@ -1,6 +1,8 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
 
+  "meta_title": "WOTI | Which women's organization suits me?",
+
   "home_title": "Which <b class=\"text-green\">women's organization</b>\n suits me?",
   "home_subtitle": "Find and support women's organizations \nthat align with your values",
   "home_start": "Start the test",

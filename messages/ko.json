@@ -1,6 +1,8 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
 
+  "meta_title": "WOTI | 나와 어울리는 여성 단체는?",
+
   "home_title": "나와 어울리는 \n<b class=\"text-green\">여성 단체</b>는?",
   "home_subtitle": "당신의 가치관에 맞는 \n여성 단체를 찾고 후원해보세요",
   "home_start": "테스트 시작하기",
