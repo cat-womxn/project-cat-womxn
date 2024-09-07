@@ -1,15 +1,16 @@
 import MuiButton from "@mui/material/Button";
 
 type ButtonProps = {
-  className?: string;
   text: string;
-  href: string;
+  onClick?: () => void;
+  className?: string;
+  href?: string;
 };
 
-const Button = ({ className, text, href }: ButtonProps) => {
+const Button = ({ className, text, onClick, href }: ButtonProps) => {
   return (
     <div className={className}>
-      <MuiButton variant="contained" href={href} className="bg-green flex">
+      <MuiButton variant="contained" onClick={onClick} href={href} className="bg-green flex w-[100%]">
         {text}
       </MuiButton>
     </div>
