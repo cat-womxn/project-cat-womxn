@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import axios from "axios";
 import Card from "@/components/Card";
 import HighlightText from "@/components/HighlightText";
@@ -37,6 +38,7 @@ const GuestBook = () => {
       await axios.post("/api/guestbook", { name, message });
       setName("");
       setMessage("");
+      window.location.reload();
     } catch (error) {
       console.error(error);
     }
@@ -54,7 +56,14 @@ const GuestBook = () => {
   return (
     <>
       <form className="flex flex-col max-w-[420px] px-10 gap-[10px] mx-auto">
-      <HighlightText className="mt-4">방명록</HighlightText>
+        <div className="flex justify-between">
+          <HighlightText className="mt-4">방명록</HighlightText>
+          <Link href="/">
+            <HighlightText className="mt-4 hover:underline">
+              처음으로
+            </HighlightText>
+          </Link>
+        </div>
         <input
           className="border-2 border-black rounded-md mt-4"
           type="text"
