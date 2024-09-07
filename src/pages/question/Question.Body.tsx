@@ -1,26 +1,29 @@
 import { Question } from ".";
-import styles from "./question.module.css";
+import S from "./question.module.css";
 
 interface QuestionBodyProps {
   currentQuestion: Question;
-  handleNextStep: () => void;
+  handleNextStep: (value: string) => void;
 }
 export default function QuestionBody({
   currentQuestion,
   handleNextStep,
 }: QuestionBodyProps) {
+  const handleClick = (value: string) => {
+    handleNextStep(value);
+  };
   return (
     <>
-      <h3 className={styles.question}>
+      <h3 className={S.question}>
         <b>Q.</b> <br />
         {currentQuestion.question}
       </h3>
-      <div className={styles.buttonsWrapper}>
+      <div className={S.buttonsWrapper}>
         {currentQuestion.choices.map((choice) => (
           <button
             key={choice.value}
-            className={styles.button}
-            onClick={handleNextStep}
+            className={S.button}
+            onClick={() => handleClick(choice.value)}
           >
             {choice.answer}
           </button>
