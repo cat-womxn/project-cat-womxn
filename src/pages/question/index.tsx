@@ -32,21 +32,19 @@ export default function Question() {
   const currentQuestion = shuffledQuestions[currentIndex];
 
   return (
-    <div className="background-yellow">
-      <div className={styles.container}>
-        <main className={styles.questionContainer}>
-          <div className={styles.defaultProgressBar}>
-            <div
-              className={styles.progressBar}
-              style={{ width: `${progress}%` }}
-            />
-          </div>
-          <QuestionBody
-            currentQuestion={currentQuestion}
-            handleNextStep={handleNextStep}
+    <div className={styles.container}>
+      <main className={styles.questionContainer}>
+        <div className={styles.defaultProgressBar}>
+          <div
+            className={styles.progressBar}
+            style={{ width: `${progress}%` }}
           />
-        </main>
-      </div>
+        </div>
+        <QuestionBody
+          currentQuestion={currentQuestion}
+          handleNextStep={handleNextStep}
+        />
+      </main>
     </div>
   );
 }
