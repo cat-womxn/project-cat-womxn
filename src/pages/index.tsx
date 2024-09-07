@@ -9,10 +9,21 @@ export default function Home() {
     router.push('/question')
   }
 
+  function toggleLanguage() {
+    const newLocale = router.locale === 'ko' ? 'en' : 'ko'
+    router.push(router.pathname, router.asPath, { locale: newLocale })
+  }
+
   return (
     <div
-      className={`font-preten flex items-center justify-center min-h-screen bg-yellow-400 p-8 pb-20 sm:p-20`}
+      className={`font-preten flex items-center justify-center min-h-screen bg-yellow-400 p-8 pb-20 sm:p-20 relative`}
     >
+      <button
+        onClick={toggleLanguage}
+        className="absolute top-4 right-4 px-4 py-2 bg-[var(--white)] text-[var(--black)] rounded-full hover:bg-[var(--black)] hover:text-[var(--white)] transition-colors text-sm shadow-md hover:shadow-lg"
+      >
+        {router.locale === 'ko' ? 'English' : '한국어'}
+      </button>
       <main className="flex flex-col items-center justify-center">
         <Image src="/images/intro.webp" alt="" width={500} height={300} priority />
         <h1
