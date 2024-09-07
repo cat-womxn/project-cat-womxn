@@ -9,8 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        green: "var(--green)",
+        yellow: "var(--yellow)",
+        grey01: "var(--grey-01)",
+        grey02: "var(--grey-02)",
+        grey03: "var(--grey-03)",
+        black: "var(--black)",
+        white: "var(--white)",
+      },
+      fontFamily: {
+        preten: ["Pretendard"],
+        gmarket: ["GmarketSans"],
       },
     },
   },
