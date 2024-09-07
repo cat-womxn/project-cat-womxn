@@ -1,24 +1,24 @@
-import Button from "./Button";
-import Card from "./Card";
-import HighlightText from "./HighlightText";
+import Button from './Button'
+import Card from './Card'
+import HighlightText from './HighlightText'
+import * as m from '@/paraglide/messages'
 
 type SimilarOrgansProps = {
-  organs: string[];
-};
+  organs: string[]
+}
 
 const SimilarOrgans = ({ organs }: SimilarOrgansProps) => {
   return (
     <Card>
-      <HighlightText className="text-green">
-        당신이 좋아할만한 단체
-      </HighlightText>
+      <HighlightText className="text-green">{m.result_another_orgs()}</HighlightText>
       <ul className="list-disc list-inside">
-        <li>{organs[0]}</li>
-        <li>{organs[1]}</li>
+        {organs.map((organ, index) => (
+          <li key={index}>{m[organ as keyof typeof m]()}</li>
+        ))}
       </ul>
-      <Button className="mt-4" text="목록으로" href="/list" />
+      <Button className="mt-4" text={m.result_button_list()} href="/list" />
     </Card>
-  );
-};
+  )
+}
 
-export default SimilarOrgans;
+export default SimilarOrgans

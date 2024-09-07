@@ -1,354 +1,363 @@
 [
   {
-    "name": "한국 여성의 전화",
-    "title": "수호하는",
+    "name": "org_korea_womens_hotline_name",
+    "title": "org_korea_womens_hotline_title",
     "type": "DFAL",
     "imageUrl": "https://cdn.litt.ly/images/9tEh0YBeZBxDIu7PVr0aguWsCXV9C2wf?s=1200x1200&m=outside&f=webp",
     "mainUrl": "https://hotline.or.kr",
     "donationUrl": "https://hotline.or.kr/donation",
-    "description": "한국 여성의 전화는 1983년 설립된 여성인권단체로, 가정폭력·성폭력 피해 여성을 지원하고 여성의 인권과 평등을 위해 활동합니다.",
+    "description": "org_korea_womens_hotline_description",
     "characteristics": [
-      "24시간 상담소와 긴급피난처 운영",
-      "여성폭력 근절을 위한 법률 제정 및 개정 활동",
-      "성평등 교육 및 캠페인 진행",
-      "매년 3,000여 건의 상담 및 지원 제공"
+      "org_korea_womens_hotline_char_1",
+      "org_korea_womens_hotline_char_2",
+      "org_korea_womens_hotline_char_3",
+      "org_korea_womens_hotline_char_4"
     ],
     "matchingPoints": [
-      "직접적인 변화를 추구하는 당신의 성향과 잘 맞아요",
-      "구체적인 문제 해결에 집중하는 걸 좋아하시는군요",
-      "정책 변화와 교육을 통한 사회 개선을 함께 추구해요",
-      "큰 규모로 폭넓은 영향력을 가진 단체를 선호하시네요"
+      "org_korea_womens_hotline_match_1",
+      "org_korea_womens_hotline_match_2",
+      "org_korea_womens_hotline_match_3",
+      "org_korea_womens_hotline_match_4"
     ],
-    "similarOrganizations": ["한국 성폭력 상담소", "한국 여성 민우회"]
+    "similarOrganizations": [
+      "org_korea_sexual_violence_relief_center_name",
+      "org_korea_womenlink_name"
+    ]
   },
   {
-    "name": "한국 여성 민우회",
-    "title": "다재다능한",
+    "name": "org_korea_womenlink_name",
+    "title": "org_korea_womenlink_title",
     "type": "DFEL",
     "imageUrl": "https://cdn.imweb.me/thumbnail/20240625/7e5f112625432.png",
     "mainUrl": "https://www.womenlink.or.kr",
     "donationUrl": "https://www.womenlink.or.kr/donation",
-    "description": "한국 여성 민우회는 1987년 설립된 여성단체로, 성평등과 여성의 인권 향상을 위해 다양한 영역에서 활동하고 있습니다.",
+    "description": "org_korea_womenlink_description",
     "characteristics": [
-      "여성의 노동권과 건강권 증진을 위한 활동",
-      "성평등 문화 확산을 위한 캠페인 진행",
-      "미디어 속 성차별 개선을 위한 모니터링",
-      "성평등 교육 프로그램 운영"
+      "org_korea_womenlink_char_1",
+      "org_korea_womenlink_char_2",
+      "org_korea_womenlink_char_3",
+      "org_korea_womenlink_char_4"
     ],
     "matchingPoints": [
-      "다양한 여성 이슈에 관심이 많은 당신과 잘 맞아요",
-      "직접 행동하고 변화를 만들어내는 것을 좋아하시는군요",
-      "사회의 여러 영역에서 성평등을 실현하고자 하는 열정이 있으시네요",
-      "작지만 강한 영향력을 가진 단체를 선호하시는 것 같아요"
+      "org_korea_womenlink_match_1",
+      "org_korea_womenlink_match_2",
+      "org_korea_womenlink_match_3",
+      "org_korea_womenlink_match_4"
     ],
-    "similarOrganizations": ["한국 여성의 전화", "한국 성폭력 상담소"]
+    "similarOrganizations": [
+      "org_korea_womens_hotline_name",
+      "org_korea_sexual_violence_relief_center_name"
+    ]
   },
   {
-    "name": "한국 성폭력 상담소",
-    "title": "든든한",
+    "name": "org_korea_sexual_violence_relief_center_name",
+    "title": "org_korea_sexual_violence_relief_center_title",
     "type": "DFAS",
     "imageUrl": "https://www.sisters.or.kr/front/img/ksvrc.png",
     "mainUrl": "https://www.sisters.or.kr",
     "donationUrl": "https://www.sisters.or.kr/donate/guide",
-    "description": "한국 성폭력 상담소는 1991년 설립된 단체로, 성폭력 근절과 성평등 사회 실현을 위해 노력하고 있습니다.",
+    "description": "org_korea_sexual_violence_relief_center_description",
     "characteristics": [
-      "성폭력 피해자 상담 및 지원",
-      "성폭력 예방교육 및 인식개선 캠페인",
-      "성폭력 관련 법률 및 정책 개선 활동",
-      "성평등 문화 확산을 위한 연구 및 출판"
+      "org_korea_sexual_violence_relief_center_char_1",
+      "org_korea_sexual_violence_relief_center_char_2",
+      "org_korea_sexual_violence_relief_center_char_3",
+      "org_korea_sexual_violence_relief_center_char_4"
     ],
     "matchingPoints": [
-      "구체적인 문제에 집중하여 해결하고자 하는 당신의 성향과 잘 맞아요",
-      "직접적인 지원과 교육을 통한 변화를 추구하시는군요",
-      "성폭력 문제 해결에 특별한 관심이 있으신 것 같아요",
-      "작은 규모지만 전문성 있는 단체를 선호하시네요"
+      "org_korea_sexual_violence_relief_center_match_1",
+      "org_korea_sexual_violence_relief_center_match_2",
+      "org_korea_sexual_violence_relief_center_match_3",
+      "org_korea_sexual_violence_relief_center_match_4"
     ],
-    "similarOrganizations": ["한국 여성의 전화", "한국 여성 민우회"]
+    "similarOrganizations": ["org_korea_womens_hotline_name", "org_korea_womenlink_name"]
   },
   {
-    "name": "한국 YWCA 연합회",
-    "title": "포용력 있는",
+    "name": "org_korea_ywca_name",
+    "title": "org_korea_ywca_title",
     "type": "DBAL",
     "imageUrl": "https://ywca.or.kr/wp-content/themes/project/images/logo-ywca.png",
     "mainUrl": "https://www.ywca.or.kr",
     "donationUrl": "https://secure.donus.org/koreaywca/pay/step1",
-    "description": "한국 YWCA 연합회는 1922년 설립된 기독교 여성단체로, 여성의 권익 향상과 사회 정의 실현을 위해 다양한 활동을 펼치고 있습니다.",
+    "description": "org_korea_ywca_description",
     "characteristics": [
-      "여성 리더십 양성 프로그램 운영",
-      "아동·청소년 복지 및 교육 사업",
-      "환경보호 및 생태운동 전개",
-      "평화통일 및 국제연대 활동"
+      "org_korea_ywca_char_1",
+      "org_korea_ywca_char_2",
+      "org_korea_ywca_char_3",
+      "org_korea_ywca_char_4"
     ],
     "matchingPoints": [
-      "폭넓은 사회 이슈에 관심이 많은 당신과 잘 맞아요",
-      "직접적인 봉사와 교육 활동을 선호하시는군요",
-      "영성과 사회 정의를 함께 추구하는 것에 관심이 있으신 것 같아요",
-      "오랜 역사와 큰 규모의 단체를 선호하시네요"
+      "org_korea_ywca_match_1",
+      "org_korea_ywca_match_2",
+      "org_korea_ywca_match_3",
+      "org_korea_ywca_match_4"
     ],
-    "similarOrganizations": ["한국 여성단체연합", "한국 여성재단"]
+    "similarOrganizations": [
+      "org_korea_women_associations_united_name",
+      "org_korea_foundation_for_women_name"
+    ]
   },
   {
-    "name": "한국 여성단체연합",
-    "title": "연대하는",
+    "name": "org_korea_women_associations_united_name",
+    "title": "org_korea_women_associations_united_title",
     "type": "IFAL",
     "imageUrl": "http://women21.or.kr/files/attach/images/146/455/006/920a3a20764b30462109322d57cccdfc.png",
     "mainUrl": "https://women21.or.kr",
     "donationUrl": "https://women21.or.kr/donate",
-    "description": "한국 여성단체연합은 1987년 설립된 연합체로, 성평등 민주사회 실현을 위해 다양한 여성단체들과 협력하며 활동합니다.",
+    "description": "org_korea_women_associations_united_description",
     "characteristics": [
-      "여성정책 제안 및 입법 활동",
-      "성평등 의식 확산을 위한 캠페인",
-      "여성단체 간 연대 및 협력 강화",
-      "국제 여성운동과의 연대"
+      "org_korea_women_associations_united_char_1",
+      "org_korea_women_associations_united_char_2",
+      "org_korea_women_associations_united_char_3",
+      "org_korea_women_associations_united_char_4"
     ],
     "matchingPoints": [
-      "다양한 여성 이슈를 포괄적으로 다루는 것을 선호하시는군요",
-      "정책 변화를 통한 사회 개선에 관심이 많으신 것 같아요",
-      "여러 단체와의 협력과 연대를 중요하게 생각하시네요",
-      "큰 규모의 영향력 있는 단체를 선호하시는 편이에요"
+      "org_korea_women_associations_united_match_1",
+      "org_korea_women_associations_united_match_2",
+      "org_korea_women_associations_united_match_3",
+      "org_korea_women_associations_united_match_4"
     ],
-    "similarOrganizations": ["한국 여성 민우회", "한국 YWCA 연합회"]
+    "similarOrganizations": ["org_korea_ywca_name", "org_korea_foundation_for_women_name"]
   },
   {
-    "name": "한국 여성재단",
-    "title": "지원하는",
+    "name": "org_korea_foundation_for_women_name",
+    "title": "org_korea_foundation_for_women_title",
     "type": "IBAL",
     "imageUrl": "https://womenfund.or.kr/wp-content/uploads/ae72e87d61887-1.png",
     "mainUrl": "https://www.womenfund.or.kr",
     "donationUrl": "https://womenfund.or.kr/donation_info",
-    "description": "한국 여성재단은 2000년 설립된 공익재단으로, 여성과 소녀들의 역량 강화와 성평등 사회 실현을 위해 다양한 지원 사업을 펼치고 있습니다.",
+    "description": "org_korea_foundation_for_women_description",
     "characteristics": [
-      "여성 공익단체 지원 사업",
-      "여성 리더십 양성 프로그램",
-      "여성 건강권 증진 사업",
-      "성평등 문화 확산을 위한 캠페인"
+      "org_korea_foundation_for_women_char_1",
+      "org_korea_foundation_for_women_char_2",
+      "org_korea_foundation_for_women_char_3",
+      "org_korea_foundation_for_women_char_4"
     ],
     "matchingPoints": [
-      "간접적인 지원을 통해 변화를 만들어내는 것을 선호하시는군요",
-      "다양한 여성 이슈에 폭넓게 관심을 가지고 계시네요",
-      "교육과 역량 강화를 통한 발전을 중요하게 여기시는 것 같아요",
-      "안정적이고 큰 규모의 단체를 통한 지원을 선호하시는 편이에요"
+      "org_korea_foundation_for_women_match_1",
+      "org_korea_foundation_for_women_match_2",
+      "org_korea_foundation_for_women_match_3",
+      "org_korea_foundation_for_women_match_4"
     ],
-    "similarOrganizations": ["한국 여성단체연합", "한국 YWCA 연합회"]
+    "similarOrganizations": ["org_korea_women_associations_united_name", "org_korea_ywca_name"]
   },
   {
-    "name": "한국 여성노동자회",
-    "title": "힘을 실어주는",
+    "name": "org_korea_women_workers_association_name",
+    "title": "org_korea_women_workers_association_title",
     "type": "DBEL",
     "imageUrl": "https://cdn.imweb.me/upload/S20230602b825e69be74a0/e1a9fe61fa0ec.png",
     "mainUrl": "http://www.kwwnet.org",
     "donationUrl": "https://kwwnet.org/support",
-    "description": "한국 여성노동자회는 1987년 설립된 단체로, 여성 노동자의 권익 향상과 성평등한 노동환경 조성을 위해 활동하고 있습니다.",
+    "description": "org_korea_women_workers_association_description",
     "characteristics": [
-      "여성 노동자 상담 및 법률 지원",
-      "성차별 없는 일터 만들기 캠페인",
-      "여성 노동정책 개선을 위한 활동",
-      "여성 노동자 리더십 교육"
+      "org_korea_women_workers_association_char_1",
+      "org_korea_women_workers_association_char_2",
+      "org_korea_women_workers_association_char_3",
+      "org_korea_women_workers_association_char_4"
     ],
     "matchingPoints": [
-      "구체적인 노동 문제 해결에 관심이 많으신 것 같아요",
-      "직접적인 지원과 행동을 통한 변화를 추구하시는군요",
-      "여성의 경제적 권리와 평등에 특별한 관심이 있으신 편이에요",
-      "현장 중심의 소규모 전문 단체를 선호하시네요"
+      "org_korea_women_workers_association_match_1",
+      "org_korea_women_workers_association_match_2",
+      "org_korea_women_workers_association_match_3",
+      "org_korea_women_workers_association_match_4"
     ],
-    "similarOrganizations": ["한국 여성 민우회", "한국 여성단체연합"]
+    "similarOrganizations": ["org_korea_womens_hotline_name", "org_korea_womenlink_name"]
   },
   {
-    "name": "한국 이주여성 인권센터",
-    "title": "다문화를 포용하는",
+    "name": "org_korea_migrant_women_human_rights_center_name",
+    "title": "org_korea_migrant_women_human_rights_center_title",
     "type": "IBES",
     "imageUrl": "https://www.nanumkorea.go.kr/gibuwas/upload/2022/07/12/20220712_3842444f-beca-4881-a413-1e86d00e26fd_s.jpg",
     "mainUrl": "http://www.wmigrant.org/wp",
     "donationUrl": "http://www.wmigrant.org/wp/support",
-    "description": "한국 이주여성 인권센터는 2001년 설립되어 한국 사회 내 이주여성들의 인권 보호와 다문화 사회 실현을 위해 노력하고 있습니다.",
+    "description": "org_korea_migrant_women_human_rights_center_description",
     "characteristics": [
-      "이주여성 상담 및 쉼터 운영",
-      "다문화 인식 개선 교육 및 캠페인",
-      "이주여성 관련 정책 개선 활동",
-      "이주여성 자조모임 지원"
+      "org_korea_migrant_women_human_rights_center_char_1",
+      "org_korea_migrant_women_human_rights_center_char_2",
+      "org_korea_migrant_women_human_rights_center_char_3",
+      "org_korea_migrant_women_human_rights_center_char_4"
     ],
     "matchingPoints": [
-      "소수자 권리에 특별한 관심을 가지고 계시는군요",
-      "직접적인 서비스 제공과 교육을 통한 변화를 선호하시네요",
-      "문화적 다양성과 포용성을 중요하게 여기시는 것 같아요",
-      "현장 중심의 전문화된 소규모 단체를 선호하시는 편이에요"
+      "org_korea_migrant_women_human_rights_center_match_1",
+      "org_korea_migrant_women_human_rights_center_match_2",
+      "org_korea_migrant_women_human_rights_center_match_3",
+      "org_korea_migrant_women_human_rights_center_match_4"
     ],
-    "similarOrganizations": ["한국 여성의 전화", "한국 여성 민우회"]
+    "similarOrganizations": ["org_korea_womens_hotline_name", "org_korea_womenlink_name"]
   },
   {
-    "name": "Pyladies",
-    "title": "혁신적인",
+    "name": "org_pyladies_name",
+    "title": "org_pyladies_title",
     "type": "DFES",
     "imageUrl": "https://raw.githubusercontent.com/pyladies-bcn/pyladies_latex_template/master/pyladies.png",
     "mainUrl": "https://pyladies.com",
     "donationUrl": "https://pyladies.com/sponsor",
-    "description": "Pyladies는 전 세계적인 여성 프로그래머 커뮤니티로, 파이썬 프로그래밍 언어를 통해 여성들의 기술 역량 강화를 지원합니다.",
+    "description": "org_pyladies_description",
     "characteristics": [
-      "여성을 위한 파이썬 프로그래밍 교육",
-      "기술 분야 여성 네트워크 구축",
-      "여성 프로그래머 멘토링 프로그램",
-      "기술 컨퍼런스 및 워크샵 개최"
+      "org_pyladies_char_1",
+      "org_pyladies_char_2",
+      "org_pyladies_char_3",
+      "org_pyladies_char_4"
     ],
     "matchingPoints": [
-      "기술 분야의 성평등에 관심이 많으신 것 같아요",
-      "직접적인 교육과 실습을 통한 역량 강화를 선호하시는군요",
-      "글로벌 네트워크와 연결되는 활동을 중요하게 여기시네요",
-      "특정 기술에 특화된 커뮤니티를 선호하시는 편이에요"
+      "org_pyladies_match_1",
+      "org_pyladies_match_2",
+      "org_pyladies_match_3",
+      "org_pyladies_match_4"
     ],
-    "similarOrganizations": ["한국 여성 과학기술인 지원센터", "한국 여성 정책연구원"]
+    "similarOrganizations": [
+      "org_korea_women_workers_association_name",
+      "org_korea_foundation_for_women_name"
+    ]
   },
   {
-    "name": "반성매매 인권행동 이룸",
-    "title": "행동하는",
+    "name": "org_e_loom_name",
+    "title": "org_e_loom_title",
     "type": "DBAS",
     "imageUrl": "https://cdn.huffingtonpost.kr/news/photo/201804/67334_128494.jpg",
     "mainUrl": "https://e-loom.org",
     "donationUrl": "https://e-loom.org/cms",
-    "description": "반성매매 인권행동 이룸은 성매매 문제 해결과 성산업 종사 여성들의 인권 보호를 위해 활동하는 단체입니다.",
+    "description": "org_e_loom_description",
     "characteristics": [
-      "성매매 피해 여성 지원 및 상담",
-      "성매매 문제에 대한 인식 개선 캠페인",
-      "성매매 관련 정책 모니터링 및 개선 활동",
-      "성매매 경험 당사자 자조모임 운영"
+      "org_e_loom_char_1",
+      "org_e_loom_char_2",
+      "org_e_loom_char_3",
+      "org_e_loom_char_4"
     ],
     "matchingPoints": [
-      "사회적 약자의 인권 문제에 깊은 관심을 가지고 계시네요",
-      "직접적인 행동과 지원을 통한 변화를 추구하시는 것 같아요",
-      "성산업 문제에 대해 폭넓은 접근을 선호하시는군요",
-      "현장 중심의 소규모 전문 단체를 지지하시는 편이에요"
+      "org_e_loom_match_1",
+      "org_e_loom_match_2",
+      "org_e_loom_match_3",
+      "org_e_loom_match_4"
     ],
-    "similarOrganizations": ["한국 여성 인권진흥원", "한국 성폭력 상담소"]
+    "similarOrganizations": [
+      "org_korea_sexual_violence_relief_center_name",
+      "org_korea_womens_hotline_name"
+    ]
   },
   {
-    "name": "열매나눔재단",
-    "title": "나누는",
+    "name": "org_merryyear_name",
+    "title": "org_merryyear_title",
     "type": "DBES",
     "imageUrl": "https://merryyear.org/wp-content/themes/merryyear/images/fb-image.png",
     "mainUrl": "https://merryyear.org",
     "donationUrl": "https://merryyear.org/support/guide",
-    "description": "열매나눔재단은 여성, 아동, 청소년 등 사회적 약자를 위한 다양한 나눔 사업을 펼치는 비영리 재단입니다.",
+    "description": "org_merryyear_description",
     "characteristics": [
-      "여성 창업 지원 프로그램",
-      "아동·청소년 교육 지원 사업",
-      "사회적 기업 육성 및 지원",
-      "국내외 소외계층 지원 활동"
+      "org_merryyear_char_1",
+      "org_merryyear_char_2",
+      "org_merryyear_char_3",
+      "org_merryyear_char_4"
     ],
     "matchingPoints": [
-      "다양한 사회 문제에 폭넓게 접근하는 것을 선호하시는군요",
-      "직접적인 지원과 교육을 통한 변화를 추구하시는 것 같아요",
-      "나눔과 사회적 가치 창출에 관심이 많으신 편이에요",
-      "유연하고 혁신적인 방식의 지원을 선호하시네요"
+      "org_merryyear_match_1",
+      "org_merryyear_match_2",
+      "org_merryyear_match_3",
+      "org_merryyear_match_4"
     ],
-    "similarOrganizations": ["한국 여성재단", "한국 YWCA 연합회"]
+    "similarOrganizations": ["org_korea_foundation_for_women_name", "org_korea_ywca_name"]
   },
   {
-    "name": "장애여성공감",
-    "title": "공감하는",
+    "name": "org_wde_name",
+    "title": "org_wde_title",
     "type": "IFAS",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Tk7Cz0Q9jWPWWADGfxeg-w1YSN2XaBqLeg&s",
     "mainUrl": "https://wde.or.kr",
     "donationUrl": "https://wde.or.kr/cms",
-    "description": "장애여성공감은 장애여성의 인권 향상과 사회참여 확대를 위해 활동하는 단체입니다.",
-    "characteristics": [
-      "장애여성 인권 옹호 활동",
-      "장애여성 성폭력 예방 및 피해자 지원",
-      "장애여성 문화예술 활동 지원",
-      "장애여성 정책 연구 및 제안"
-    ],
-    "matchingPoints": [
-      "소수자의 권리에 특별한 관심을 가지고 계시는군요",
-      "간접 지원과 정책 제안을 통한 변화를 선호하시는 것 같아요",
-      "장애와 젠더 이슈의 교차성에 주목하시는 편이에요",
-      "당사자 중심의 전문화된 소규모 단체를 지지하시네요"
-    ],
-    "similarOrganizations": ["한국 여성 장애인연합", "한국 성폭력 상담소"]
+    "description": "org_wde_description",
+    "characteristics": ["org_wde_char_1", "org_wde_char_2", "org_wde_char_3", "org_wde_char_4"],
+    "matchingPoints": ["org_wde_match_1", "org_wde_match_2", "org_wde_match_3", "org_wde_match_4"],
+    "similarOrganizations": [
+      "org_korea_womens_hotline_name",
+      "org_korea_sexual_violence_relief_center_name"
+    ]
   },
   {
-    "name": "지파운데이션",
-    "title": "지원하는",
+    "name": "org_gfound_name",
+    "title": "org_gfound_title",
     "type": "IFEL",
     "imageUrl": "https://res.cloudinary.com/linkareer/image/fetch/f_auto,q_50/https://api.linkareer.com/attachments/260001",
     "mainUrl": "https://gfound.org",
     "donationUrl": "https://donation.gfound.org/support1-1_2022.php?TAxWrZuuptPfulOPOX7XXQ%3D%3D",
-    "description": "지파운데이션은 '도움을 주는 자와 받는 자가 구별되지 않는 세상을 만듭니다'라는 미션을 가진 NGO로, 국내 취약계층을 위한 다양한 지원 활동을 펼치고 있습니다. 특히 여성과 아동을 중심으로 한 지원 사업과 역량 강화 프로그램을 통해 더 나은 사회를 만들어가고자 노력합니다.",
+    "description": "org_gfound_description",
     "characteristics": [
-      "저소득 여성, 한부모 가정, 위기 가정 등을 위한 지원 프로그램 개발 및 운영",
-      "여성 역량 강화를 위한 교육 및 멘토링 프로그램 제공",
-      "아동·청소년의 건강한 성장을 위한 지원 사업 진행",
-      "사회적 기업 육성을 통한 여성의 경제적 자립 지원"
+      "org_gfound_char_1",
+      "org_gfound_char_2",
+      "org_gfound_char_3",
+      "org_gfound_char_4"
     ],
     "matchingPoints": [
-      "간접적인 지원과 프로그램 개발을 통한 변화를 추구하시는군요",
-      "여성과 아동을 중심으로 한 집중적인 지원에 관심이 많으신 것 같아요",
-      "취약계층의 역량 강화와 자립을 중요하게 여기시는 편이에요",
-      "전국적 규모의 영향력 있는 단체를 통한 체계적인 지원을 선호하시네요"
+      "org_gfound_match_1",
+      "org_gfound_match_2",
+      "org_gfound_match_3",
+      "org_gfound_match_4"
     ],
-    "similarOrganizations": ["한국 여성재단", "열매나눔재단"]
+    "similarOrganizations": ["org_korea_foundation_for_women_name", "org_merryyear_name"]
   },
   {
-    "name": "십대 여성 인권센터",
-    "title": "보호하는",
+    "name": "org_teen_up_name",
+    "title": "org_teen_up_title",
     "type": "IFES",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSe3c0EnmZ7EA7-IzIU27VSdgtB1n0h5sswA&s",
     "mainUrl": "http://www.teen-up.com",
     "donationUrl": "http://www.teen-up.com/load.asp?subPage=710",
-    "description": "십대 여성 인권센터는 청소년 여성의 인권 보호와 성착취 피해 예방을 위해 활동하는 단체입니다.",
+    "description": "org_teen_up_description",
     "characteristics": [
-      "청소년 성착취 피해자 지원",
-      "청소년 성인권 교육",
-      "청소년 성보호 정책 연구 및 제안",
-      "청소년 성문화 개선 캠페인"
+      "org_teen_up_char_1",
+      "org_teen_up_char_2",
+      "org_teen_up_char_3",
+      "org_teen_up_char_4"
     ],
     "matchingPoints": [
-      "청소년 인권 문제에 특별한 관심을 가지고 계시네요",
-      "간접 지원과 교육을 통한 예방적 접근을 선호하시는 것 같아요",
-      "성착취 문제에 집중하여 해결하고자 하는 의지가 보이시네요",
-      "전문화된 소규모 단체의 활동을 지지하시는 편이에요"
+      "org_teen_up_match_1",
+      "org_teen_up_match_2",
+      "org_teen_up_match_3",
+      "org_teen_up_match_4"
     ],
-    "similarOrganizations": ["한국 성폭력 상담소", "한국 여성 인권진흥원"]
+    "similarOrganizations": [
+      "org_korea_sexual_violence_relief_center_name",
+      "org_korea_womens_hotline_name"
+    ]
   },
   {
-    "name": "성적권리와 재생산정의를 위한 센터 셰어",
-    "title": "진보적인",
+    "name": "org_srhr_name",
+    "title": "org_srhr_title",
     "type": "IBAS",
     "imageUrl": "https://cdn.myportfolio.com/069b876d50377878cf85453d54f30324/3dff73e2-b968-4046-950b-5f83d6a25e41_rw_1200.png?h=210c00c8b700bee6ffaef676073c2476",
     "mainUrl": "https://srhr.kr",
     "donationUrl": "https://srhr.kr/support",
-    "description": "센터 셰어는 성적 권리와 재생산 정의 실현을 위해 활동하는 단체로, 모든 이의 성과 재생산 건강권을 위해 노력합니다.",
-    "characteristics": [
-      "성과 재생산 건강권 옹호 활동",
-      "포괄적 성교육 프로그램 개발 및 보급",
-      "성과 재생산 관련 정책 연구 및 제안",
-      "성적 권리 인식 개선 캠페인"
-    ],
+    "description": "org_srhr_description",
+    "characteristics": ["org_srhr_char_1", "org_srhr_char_2", "org_srhr_char_3", "org_srhr_char_4"],
     "matchingPoints": [
-      "성과 재생산 건강에 대한 폭넓은 관심을 가지고 계시는군요",
-      "간접적인 지원과 정책 변화를 통한 접근을 선호하시네요",
-      "진보적인 가치관과 사회 변화에 관심이 많으신 것 같아요",
-      "전문성을 갖춘 소규모 단체의 활동을 지지하시는 편이에요"
+      "org_srhr_match_1",
+      "org_srhr_match_2",
+      "org_srhr_match_3",
+      "org_srhr_match_4"
     ],
-    "similarOrganizations": ["한국 여성 민우회", "한국 성폭력 상담소"]
+    "similarOrganizations": ["org_korea_womenlink_name", "org_korea_womens_hotline_name"]
   },
   {
-    "name": "한국 미혼모지원 네트워크",
-    "title": "포용적인",
+    "name": "org_kumsn_name",
+    "title": "org_kumsn_title",
     "type": "IBEL",
     "imageUrl": "https://kumsn.org/wp-content/uploads/2023/09/kml.jpg",
     "mainUrl": "https://kumsn.org",
     "donationUrl": "https://kumsn.org/?page_id=2687",
-    "description": "한국 미혼모지원 네트워크는 미혼모와 그 자녀들의 권리 보호와 복지 증진을 위해 활동하는 단체입니다.",
+    "description": "org_kumsn_description",
     "characteristics": [
-      "미혼모 인식 개선 캠페인",
-      "미혼모 지원 정책 연구 및 제안",
-      "미혼모 자립 지원 프로그램",
-      "미혼모 가족 네트워크 구축"
+      "org_kumsn_char_1",
+      "org_kumsn_char_2",
+      "org_kumsn_char_3",
+      "org_kumsn_char_4"
     ],
     "matchingPoints": [
-      "가족 다양성과 평등에 특별한 관심을 가지고 계시네요",
-      "간접 지원과 교육을 통한 사회 변화를 추구하시는 것 같아요",
-      "소수자 권리 보호에 폭넓게 접근하는 것을 선호하시는군요",
-      "전국적 네트워크를 가진 단체를 지지하시는 편이에요"
+      "org_kumsn_match_1",
+      "org_kumsn_match_2",
+      "org_kumsn_match_3",
+      "org_kumsn_match_4"
     ],
-    "similarOrganizations": ["한국 여성단체연합", "한국 한부모가족 지원센터"]
+    "similarOrganizations": [
+      "org_korea_womens_hotline_name",
+      "org_korea_sexual_violence_relief_center_name"
+    ]
   }
 ]
