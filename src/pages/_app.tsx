@@ -9,16 +9,17 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>{m.meta_title()}</title>
-        <meta name="description" content={m.home_subtitle()} />
+        <meta property="description" content={m.home_subtitle()} />
+        <meta property="og:site_name" content={m.meta_title()} />
         <meta property="og:title" content={m.meta_title()} />
         <meta property="og:description" content={m.home_subtitle()} />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/images/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:image" content="/images/og-image.png" />
-        <meta property="twitter:title" content={m.meta_title()} />
+        <meta name="twitter:image" content="/images/og-image.png" />
+        <meta name="twitter:title" content={m.meta_title()} />
         <meta
-          property="twitter:description"
+          name="twitter:description"
           content={m.home_subtitle()}
         />
       </Head>
