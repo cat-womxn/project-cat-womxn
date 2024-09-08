@@ -15,6 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/images/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:image" content="/images/og-image.png" />
       </Head>
       <div className="background-yellow">
         <ParaglideJS>
