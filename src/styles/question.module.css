@@ -2,7 +2,7 @@
   @apply flex flex-col w-full max-w-[420px] px-5 pb-10 mx-auto;
 }
 .questionContainer {
-  @apply min-h-[578px];
+  @apply py-[64px];
 }
 .defaultProgressBar {
   @apply relative w-full h-[6px] mt-[64px] bg-grey01 rounded-xl border-[1.4px] border-solid border-black;
