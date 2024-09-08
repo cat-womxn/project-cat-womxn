@@ -34,7 +34,6 @@ export default ResultPage
 
 export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
   const query = ctx.query
-  console.log(ctx, query)
   return {
     props: {
       type: query.id,
